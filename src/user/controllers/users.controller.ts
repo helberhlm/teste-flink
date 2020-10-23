@@ -28,7 +28,7 @@ export class UsersController {
   async createAdminUser(
     @Body(ValidationPipe) createUserDto: CreateUserDto,
   ): Promise<ReturnUserDto> {
-    const user = await this.usersService.createAdminUser(createUserDto);
+    const user = await this.usersService.createUser(createUserDto);
     return {
       user,
       message: 'Administrador cadastrado com sucesso',
