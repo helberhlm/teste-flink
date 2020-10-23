@@ -76,7 +76,7 @@ Primeiro baixe o projeto usando o git
   
 
 ```bash
-$ git clone <repo>
+$ git clone https://github.com/helberhlm/teste-flink.git
 ```
 
   
